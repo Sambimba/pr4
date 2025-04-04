@@ -1,0 +1,22 @@
+# Общие игнорируемые файлы
+*.o
+*.a
+*.so
+*.out
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Файлы сборки CMake
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+
+# Сгенерированные исполняемые файлы
+/client
+/server
+
+# Каталоги сборки
+build/
